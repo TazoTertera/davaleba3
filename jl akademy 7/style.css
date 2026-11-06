@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(234, 29%, 20%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 36px;
+  display: flex;
+  gap: 40px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.container div {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+h1 {
+  color:hsl(234, 29%, 20%);
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  color:hsl(234, 29%, 20%);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h5 {
+  color:hsl(0, 0%,58%);
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid hsl(0, 0%,58%);
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  color: hsl(234, 29%, 20%);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
